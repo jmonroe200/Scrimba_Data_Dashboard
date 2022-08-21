@@ -71,3 +71,24 @@ h1 {
     color: #847D93;
     margin-top: 1.1em;
 }
+
+.cta {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2.875rem;
+    display: inline-block;
+    border: 1px solid #4D4D4D;
+    padding: 1.25em 1.25em 1.25em calc(2.5em + 1.5em);
+    position: relative;
+}
+
+.cta::before {
+    content: '';
+    position: absolute;
+    background: url('./images/new-arrow-right.svg');
+    width: 1.5em;
+    height: 1.5em;
+    left: 1.25em;
+}
