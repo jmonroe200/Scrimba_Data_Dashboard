@@ -94,6 +94,16 @@ h1 {
     background: var(--primary-color);
 }
 
+.back-btn {
+    transform: scaleX(-1);
+    padding: 3em 4em 2em;
+    transition: transform .3s;
+}
+
+.back-btn:hover {
+    transform: scaleX(-1) translateX(6px);
+}
+
 nav {
     position: fixed;
     z-index: 1;
