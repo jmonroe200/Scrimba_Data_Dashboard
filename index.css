@@ -92,3 +92,7 @@ h1 {
     height: 1.5em;
     left: 1.25em;
 }
+
+.cta:hover {
+    background: var(--primary-color);
+}
