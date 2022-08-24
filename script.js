@@ -6,3 +6,8 @@ const menuBtn = document.querySelector('.menu-btn')
 menuBtn.addEventListener('click', () => {
     menu.style.transform = 'translateX(0)'
 })
+
+backBtn.addEventListener('click', () => {
+    menu.style.transform = 'translateX(-100%)'
+})
+
