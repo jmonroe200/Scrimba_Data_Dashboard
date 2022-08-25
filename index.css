@@ -147,4 +147,25 @@ nav ul li a:hover {
         border-bottom-left-radius: 13px;
         height: 100%;
     }
+
+    .menu-btn, .back-btn {
+        display: none;
+    }
+
+    ul {
+        margin-top: 4em;
+    }
+
+    header {
+        padding: 1.6em;
+    }
+
+    .container {
+        display: flex;
+        padding: 2em;
+    }
+    
+    .logo {
+        text-align: left;
+    }
 }
