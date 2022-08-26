@@ -168,4 +168,18 @@ nav ul li a:hover {
     .logo {
         text-align: left;
     }
+
+    section {
+        border-radius: unset;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0;
+    }
+
+    .content {
+        justify-self: left;
+        margin-left: 4em;
+    }
 }
